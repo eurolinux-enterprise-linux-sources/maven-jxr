@@ -30,7 +30,7 @@
 
 Name:           maven-jxr
 Version:        2.3
-Release:        10%{?dist}
+Release:        11%{?dist}
 Epoch:          0
 Summary:        Source cross referencing tool
 # BSD: maven-jxr/src/main/java/org/apache/maven/jxr/JavaCodeTransform.java
@@ -115,6 +115,9 @@ cp %{SOURCE1} .
 %files -n maven-plugin-jxr -f .mfiles-maven-plugin-jxr
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 02.3-11
+- Mass rebuild 2013-12-27
+
 * Tue Jul 23 2013 Michal Srb <msrb@redhat.com> - 0:2.3-10
 - Build with XMvn
 - Add BSD license text
